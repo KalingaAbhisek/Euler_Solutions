@@ -8,7 +8,7 @@ public class Special_Pythagorean_triplet {
 			for(int j=i+1;j<=n/2;j++) {
 				int k=n-i-j;
 				if(i*i+j*j==k*k) {
-					System.out.println(i+" "+j+" "+" "+k);
+					System.out.println(i*j*k);
 				}
 			}
 		}
